@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 
 export default function CountryLookUp() {
-  const [country, setcountry] = useState('United State')
+  const [country, setcountry] = useState('United States')
   useEffect(() => {
     fetch(`https://extreme-ip-lookup.com/json/?key=${process.env.NEXT_PUBLIC_IP_API_KEY}`)
       .then((res) => res.json())
