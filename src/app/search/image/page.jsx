@@ -1,5 +1,6 @@
 import ImageSearchResults from "@/components/ImageSearchResults";
 import WebSearchResults from "@/components/WebSearchResults";
+import Link from "next/link";
 import { NextResponse } from "next/server";
 
 export default async function ImagseSearchPage({ searchParams }) {
