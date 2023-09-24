@@ -9,9 +9,14 @@ export default function SearchHearder() {
   return (
     <header className="sticky top-0 bg-white">
       <div className="flex w-full p-6 items-center justify-between">
-        <Link href='/'><Image width='120' height='40' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png'
-          alt='google' />
-        </Link>
+        <div>
+          <Link href='/'><Image width='120' height='40' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png'
+            alt='google' />
+          </Link>
+          <Link href='https://www.instagram.com/theguyinfitch/'>
+            <h1 className='text-center mx-auto'> Follow - theguyinfitch</h1>
+          </Link>
+        </div>
         <div className="flex-1">
           <SearchBox />
         </div>
